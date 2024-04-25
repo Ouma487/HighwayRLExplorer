@@ -9,9 +9,9 @@ Within HighwayRLExplorer, you will find three key environments, each presenting 
 ### Highway
 In the Highway environment, agents are tasked with the challenge of driving along a multi-lane roadway populated with other vehicles. The objective is to navigate at high speed while avoiding collisions and adhering to traffic rules.
 
-<div style="text-align: center;">
-    <img src="Gifs/highway.gif" alt="Highway Environment GIF">
-</div>
+<p align="center">
+  <img src="Gifs/highway.gif" alt="Highway Environment GIF">
+</p>
 
 
 ### Roundabout
