@@ -2,6 +2,10 @@
 
 The Highway environment within the HighwayRLExplorer project simulates a multi-lane road with other traffic participants. This environment is designed to develop and evaluate reinforcement learning agents that can navigate through highway traffic efficiently and safely.
 
+<p align="center">
+  <img src="Gifs/highway.gif" alt="Highway Environment GIF">
+</p>
+
 ## Overview
 
 This Jupyter notebook contains the setup, configuration, and implementation from scratch of a reinforcement learning agent specifically designed for the Highway environment. It demonstrates the initialization of the environment, exploration of the action and observation spaces, and the application of the Deep Q-Network (DQN) algorithm to train the agent.
@@ -19,7 +23,7 @@ This Jupyter notebook contains the setup, configuration, and implementation from
 ## Usage
 
 To use this notebook:
-1. Ensure you have installed all required libraries as listed in the project's `requirements.txt`.
+1. Ensure you have installed all required libraries as listed in the notebook.
 2. Run each cell in the notebook sequentially to initialize the environment, define the RL agent, and start the training process.
 
 ## Explanation
