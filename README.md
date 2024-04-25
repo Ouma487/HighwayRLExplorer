@@ -1,6 +1,6 @@
 # HighwayRLExplorer
 
-Welcome to HighwayRLExplorer, where the intricacies of vehicular control meet the cutting-edge realm of Reinforcement Learning (RL). This repository is devoted to the development of RL agents tailored for automotive environments, tackling the nuances of highway navigation, the precision of parking maneuvers, and the dynamics of roundabout negotiation.
+Welcome to HighwayRLExplorer, where the intricacies of vehicular control meet the cutting-edge realm of Reinforcement Learning (RL). This repository is devoted to the development of RL agents tailored for automotive environments, tackling the nuances of highway navigation, the precision of parking maneuvers, and the dynamics of roundabout negotiation, it was a part of a Uni project.
 
 Each environment within this repository is accompanied by its own detailed README. These READMEs provide specific information about the unique challenges of the environment, the RL agents designed to navigate them, and guidance on how to interact with and extend the simulations.
 
