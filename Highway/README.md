@@ -3,7 +3,7 @@
 The Highway environment within the HighwayRLExplorer project simulates a multi-lane road with other traffic participants. This environment is designed to develop and evaluate reinforcement learning agents that can navigate through highway traffic efficiently and safely.
 
 <p align="center">
-  <img src="Gifs/highway.gif" alt="Highway Environment GIF">
+  <img src="highway.gif" alt="Highway Environment GIF">
 </p>
 
 ## Overview
