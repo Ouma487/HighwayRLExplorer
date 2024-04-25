@@ -50,13 +50,13 @@ In our Parking environment, the DDPG Agent demonstrates the application of its c
 
 ### Results
 
-The following GIF captures the DDPG Agent as it masterfully navigates to the parking spot. The visual result is indicative of the agent's learned policy and its ability to execute accurate parking maneuvers in a constrained space.
+The following GIF captures the DDPG Agent as it masterfully navigates to the parking spot. As we can see, the agent doesn't perform very well.To try to improve accuracy, we implemented DDPG with HER (Hindsight Experience Replay) [https://arxiv.org/pdf/1707.01495.pdf]
 
 <p align="center">
   <img src="Gifs/episode_ddpg-ezgif.com-video-to-gif-converter.gif" alt="Parking DDPG GIF">
 </p>
 
- As we can see, the agent doesn't perform very well.To try to improve accuracy, we implemented DDPG with HER (Hindsight Experience Replay) [https://arxiv.org/pdf/1707.01495.pdf]
+
 ---
 
 The `Parking_DDPG.ipynb` notebook is furnished with the complete code and commentary, offering a transparent view of the DDPG agent's learning mechanics in action. For those interested in delving into the algorithmic intricacies or reproducing the training process, the notebook serves as a comprehensive resource.
