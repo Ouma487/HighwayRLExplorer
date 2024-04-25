@@ -28,15 +28,17 @@ In the development of the Roundabout agent, the [Stable-Baselines3 (sb3) library
 ## Results
 
 ### Video 1
+
 <p align="center">
-  <img src="Roundabout/Gifs/rl-video-episode-0-ezgif.com-video-to-gif-converter.gif" alt="Result 1 GIF">
+  <img src="Gifs/rl-video-episode-0-ezgif.com-video-to-gif-converter.gif" alt="Result 1 GIF">
 </p>
 
 In this video, we see the agent in the environment with higher traffic density.
 
 ### Video 2
+
 <p align="center">
-  <img src="Roundabout/Gifs/rl-video-episode-1-ezgif.com-video-to-gif-converter.gif" alt="Result 2 GIF">
+  <img src="Gifs/rl-video-episode-1-ezgif.com-video-to-gif-converter.gif" alt="Result 2 GIF">
 </p>
 
 This video displays the agent with fewer cars, allowing for a clearer observation of its refined navigation tactics in the roundabout.
