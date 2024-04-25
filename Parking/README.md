@@ -61,4 +61,19 @@ The following GIF captures the DDPG Agent as it masterfully navigates to the par
 
 The `Parking_DDPG.ipynb` notebook is furnished with the complete code and commentary, offering a transparent view of the DDPG agent's learning mechanics in action. For those interested in delving into the algorithmic intricacies or reproducing the training process, the notebook serves as a comprehensive resource.
 
+## DDPG with Hindsight Experience Replay (HER) Approach
+
+In the pursuit of an even more efficient learning process in the Parking environment, we extend the capabilities of the DDPG agent by integrating Hindsight Experience Replay (HER). This innovative technique allows the agent to learn from unsuccessful episodes by reinterpreting them as successful ones toward alternative goals.
+
+### Learning from Alternatives with HER
+
+HER is a strategy that reframes failures as successes by changing the perspective on the goal. Even if the agent does not reach the intended parking spot, each attempt is valuable. By treating the final state of an episode as a desired outcome, the agent can learn from what would traditionally be considered negative experiences.
+
+### Advantages of DDPG with HER
+
+This approach significantly enhances learning efficiency, particularly in environments where successes are sparse and precious. By utilizing every piece of experience, the DDPG with HER agent acquires a more robust policy that can generalize across a variety of scenarios, ultimately leading to higher success rates in the task of parking.
+
+### Implementation in the Parking Environment
+
+The `Parking_DDPG_HER.ipynb` notebook showcases the implementation of the DDPG with HER agent. It walks through the integration of HER into the learning process, detailing the changes and benefits it brings to the DDPG algorithm. The notebook provides a comprehensive view of the training process, from initialization to execution.
 
